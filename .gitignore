@@ -3,6 +3,13 @@
 *.DS_STORE
 
 # Data files
-data
+data/Images
+data/captions.txt
+data/Glove.6B.200d.txt
+
+# Zip files downloaded from Kaggle
 flickr8k.zip
 glove-global-vectors-for-word-representation.zip
+
+# Model files
+/models/*.h5
